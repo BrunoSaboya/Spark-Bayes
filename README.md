@@ -1,12 +1,5 @@
-# 23-1-projeto-spark-bayes-spark
-
 ### Introdução
 Neste projeto vamos construir um classificador Naive-Bayes para determinar o sentimento de um comentário.
-
-### Grupos
-Bruno Saboya
-Felipe Lemos
-
 
 ### Instalando o ambiente
 O jeito mais simples de começar a trabalhar com Spark é instalar um container com tudo pronto! No site https://hub.docker.com/r/jupyter/pyspark-notebook vemos uma imagem Docker que já vem com pyspark e jupyter lab. Instale a imagem com o comando:
@@ -28,6 +21,5 @@ Portanto, o comando completo que eu usei na minha máquina Windows para iniciar 
 ```
 docker run -it --rm -p 8888:8888 -p 4040:4040 -v ${PWD}:/home/jovyan/work jupyter/pyspark-notebook
   ```
-
 
 Agora abra esse notebook lá no container!
